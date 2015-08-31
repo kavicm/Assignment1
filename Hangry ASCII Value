@@ -19,22 +19,17 @@ public class Hangry {
      
         char letter1 = word.charAt(0);
         int ascii1 = (int)letter1;
-        
         char letter2 = word.charAt(1);
         int ascii2 = (int)letter2;
-        
         char letter3 = word.charAt(2);
         int ascii3 = (int)letter3;
-        
         char letter4 = word.charAt(3);
         int ascii4 = (int)letter4;
-        
         char letter5 = word.charAt(4);
         int ascii5 = (int)letter5;
-        
         char letter6 = word.charAt(5);
         int ascii6 = (int)letter6;
-     
+        
         int asciiTotal = (ascii1 + ascii2 + ascii3 + ascii4 + ascii5 + ascii6);
         //sum of the ascii value for each letter
      
